@@ -1,10 +1,10 @@
-# update.exe 更新软件使用说明
+# Updater 软件使用说明
 
 ### 简介
-update.exe 软件一个用于从 HTTP 服务器上下载软件安装包并执行安装的程序。 update.exe 是基于 NSIS 开发的。
+Updater 软件一个用于从 HTTP 服务器上下载软件安装包并执行安装的程序。 Updater 是基于 NSIS 开发的。
 
 ### 使用说明
-update.exe 接受四个命令行参数，可在命令行中直接调用，或者在windows程序中，用CreateProcess构建
+updater.exe 接受四个命令行参数，可在命令行中直接调用，或者在windows程序中，用CreateProcess构建
 
 #### 参数说明
 - -URL: 更新文件所在的HTTP服务器地址以及目录，比如 http://www.domain.com/folder
